@@ -1,0 +1,131 @@
+.App{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #464646;
+    color: #f2f2f2;
+}
+.btn{
+    all: unset;
+    padding: 8px 17px;
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.btn-signout{
+    background-color: #fc6c6d;
+    color: #ffffff;
+}
+.btn-sent{
+    background-color: #00ff93;
+    color: #262626;
+}
+.btn-signout:hover{
+    background-color: #f04c4c;
+}
+.btn-sent:hover{
+    background-color: #7efac6;
+}
+header{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header img{
+    width: auto;
+    height: 50px;
+    border-radius: 100%;
+}
+.currentUser {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.wrapper{
+    width: 100%;
+    max-width: 600px;
+}
+.chat-room{
+    width: 100%;
+}
+.messages{
+    width: 100%;
+    background-color: #343434;
+    color: #a8a8a8;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 70vh;
+}
+.msg{
+    width: 100%;
+    border-bottom: 1px solid #4c4c4c;
+    margin: 10px;
+}
+.message-sent{
+    background-color: #5d78b0;
+    justify-content: flex-end;
+    color: #f2f2f2;
+}
+.message-sent p{
+    padding-right: 18px;
+}
+.message-sent img{
+    display: none;
+}
+.message-sent .text-name{
+    display: none;
+}
+.message-received{
+    background-color: #3a3a3a;
+}
+.msg-text{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.msg-text img{
+    width: auto;
+    height: 50px;
+    border-radius: 100%;
+}
+.msg-text p{
+    font-size: 1rem;
+    line-height: 0;
+}
+.msg-text .text-name{
+    font-size: .8rem;
+    padding: 0;
+}
+.sent-message{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-top: 10px;
+}
+.sent-message form{
+    display: flex;
+    width: 100%;
+}
+.sent-message input{
+    all: unset;
+    background-color: #3a3a3a;
+    border: none;
+    width: 100%;
+    padding: 11px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 15px;
+}
+.text p:first-child{
+    line-height: 1;
+}
