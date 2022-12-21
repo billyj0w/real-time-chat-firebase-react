@@ -16,14 +16,7 @@ import { useAuthState } from 'react-firebase-hooks/auth'
 import { useCollectionData } from 'react-firebase-hooks/firestore'
 
 firebase.initializeApp({
-  apiKey: "######################################",
-  authDomain: "######################################",
-  databaseURL: "######################################",
-  projectId: "######################################",
-  storageBucket: "######################################",
-  messagingSenderId: "######################################",
-  appId: "######################################",
-  measurementId: "######################################"
+
 })
 const auth = firebase.auth();
 const firestore = firebase.firestore();
